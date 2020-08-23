@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Counting word Python in the website text</title>
+    </head>
+    <body>
+ <table>
+{% for res in results %}
+<TR>
+   <TD class="c2">{{res.address}}</TD>
+   <TD class="c3">{{res.words_count}}</TD>
+   <TD class="c4"><SPAN>{{res.http_status_code}}</SPAN></TD>
+</TR>
+{% endfor %}
+</table>   </body>
+</html>
